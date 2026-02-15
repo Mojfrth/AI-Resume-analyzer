@@ -1,3 +1,5 @@
+✨ Introduction
+
 Build an AI-powered Resume Analyzer using React, React Router, and Puter.js! Enable seamless auth, resume upload/storage, and AI-driven matching to jobs with custom ATS scores and feedback—all in a clean, reusable UI.
 
 ⚙️ Tech Stack
