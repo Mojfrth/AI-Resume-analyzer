@@ -227,29 +227,12 @@ export const AIResponseFormat = `
 
 export const prepareInstructions = ({jobTitle, jobDescription}: { jobTitle: string; jobDescription: string; }) =>
     `You are an expert in ATS (Applicant Tracking System) and resume analysis.
-  Please analyze and rate this resume and suggest how to improve it.
-  Be thorough, detailed, and objective in your evaluation.
-
-  Carefully review the resume before assigning a score.
-  Consider:
-  - Keyword relevance
-  - Skills alignment
-  - Experience clarity
-  - Formatting and structure
-  - Match with the job description (if provided)
-
-  Scoring Guidelines:
-  - 90–100: Excellent, highly optimized for ATS
-  - 75–89: Strong resume with minor improvements needed
-  - 60–74: Average resume, needs improvement
-  - 40–59: Weak resume
-  - 1–39: Very poor resume
-  - 0 ONLY if the resume is empty or completely unrelated
-
-  Most resumes typically fall between 60 and 85.
-  Do not randomly give 0. Be fair and realistic.
-
-  If available, use the job description for the job user is applying to to give more detailed feedback.
+      Please analyze and rate this resume and suggest how to improve it.
+      The rating can be low if the resume is bad.
+      Be thorough and detailed. Don't be afraid to point out any mistakes or areas for improvement.
+      If there is a lot to improve, don't hesitate to give low scores. This is to help the user to improve their resume.
+      If available, use the job description for the job user is applying to to give more detailed feedback.
+      If provided, take the job description into consideration.
       The job title is: ${jobTitle}
       The job description is: ${jobDescription}
       Provide the feedback using the following format:
