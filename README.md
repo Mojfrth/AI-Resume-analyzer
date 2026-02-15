@@ -1,87 +1,27 @@
-# Welcome to React Router!
+Build an AI-powered Resume Analyzer using React, React Router, and Puter.js! Enable seamless auth, resume upload/storage, and AI-driven matching to jobs with custom ATS scores and feedback—all in a clean, reusable UI.
 
-A modern, production-ready template for building full-stack React applications using React Router.
+⚙️ Tech Stack
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/remix-run/react-router-templates/tree/main/default)
+React & React Router v7: Efficient UI with reusable components and nested routes.
 
-## Features
+Puter.js / Puter.com: Serverless auth, storage, database, and AI (GPT, Claude, DALL·E, OCR…) in-browser—no backend needed.
 
-- 🚀 Server-side rendering
-- ⚡️ Hot Module Replacement (HMR)
-- 📦 Asset bundling and optimization
-- 🔄 Data loading and mutations
-- 🔒 TypeScript by default
-- 🎉 TailwindCSS for styling
-- 📖 [React Router docs](https://reactrouter.com/)
+Tailwind CSS & shadcn/ui: Modern, responsive UI.
 
-## Getting Started
+TypeScript: Static typing for better code quality.
 
-### Installation
+Vite: Fast build and HMR for modern web apps.
 
-Install the dependencies:
+Zustand: Minimal global state management with hooks.
 
-```bash
-npm install
-```
+🔋 Features
 
-### Development
+Browser-based auth with Puter.js.
 
-Start the development server with HMR:
+Upload & store resumes safely.
 
-```bash
-npm run dev
-```
+AI resume matching with ATS scores and tailored feedback.
 
-Your application will be available at `http://localhost:5173`.
+Reusable, modular components for efficient development.
 
-## Building for Production
-
-Create a production build:
-
-```bash
-npm run build
-```
-
-## Deployment
-
-### Docker Deployment
-
-To build and run using Docker:
-
-```bash
-docker build -t my-app .
-
-# Run the container
-docker run -p 3000:3000 my-app
-```
-
-The containerized application can be deployed to any platform that supports Docker, including:
-
-- AWS ECS
-- Google Cloud Run
-- Azure Container Apps
-- Digital Ocean App Platform
-- Fly.io
-- Railway
-
-### DIY Deployment
-
-If you're familiar with deploying Node applications, the built-in app server is production-ready.
-
-Make sure to deploy the output of `npm run build`
-
-```
-├── package.json
-├── package-lock.json (or pnpm-lock.yaml, or bun.lockb)
-├── build/
-│   ├── client/    # Static assets
-│   └── server/    # Server-side code
-```
-
-## Styling
-
-This template comes with [Tailwind CSS](https://tailwindcss.com/) already configured for a simple default starting experience. You can use whatever CSS framework you prefer.
-
----
-
-Built with ❤️ using React Router.
+Responsive, cross-device design with modern UI/UX.
